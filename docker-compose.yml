@@ -17,7 +17,7 @@ services:
       - amnezia-dns-net
     volumes:
       - /lib/modules:/lib/modules
-      - ./server_scripts/awg/:/opt/amnezia/
+      - ./scripts/awg/:/opt/amnezia/
     restart: always
     devices:
     - /dev/net/tun:/dev/net/tun
